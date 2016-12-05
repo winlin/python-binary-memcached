@@ -27,7 +27,8 @@ from bmemcached.utils import str_to_bytes
 logger = logging.getLogger(__name__)
 
 
-class Protocol(threading.local):
+#class Protocol(threading.local):
+class Protocol(object):
     """
     This class is used by Client class to communicate with server.
     """
